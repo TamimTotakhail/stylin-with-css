@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<<<<<<< HEAD
     <title>Stylin with CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+
     <style>
       html{
         background-color:#ccc;
@@ -12,19 +14,48 @@
       body {
         font-family:Arial;
         background-color: #fff;
-        max-width: 960;
+        max-width: 960px;
+        margin:auto;
+        witdh:90%;
+        padding: 1%;
+      }
+      nav{
+        text-align:center; /* centers the nav */
+      }
+
+
+      nav ul {
+            list-style:none; /* removes the bullets */
+        }
+      nav ul li
+        {
+            display:inline-block; /* makes horizontal, but able to declare margins */
+            margin:0 2%; /* margin left-right, gets smaller as necessary */
+        }
+      nav a:hover{
+        text-decoration: none; /* on hover, underline goes away */
+      }
+
+      footer{
+        text-align: center;
+        clear: both;
       }
 
     </style>
   </head>
   <body>
-    <h1>Stylin with CSS</h1>
-=======
-    <title>Stylin with  CSS new</title>
-  </head>
-  <body>
-    <h1>Stylin with  CSS new</h1>
->>>>>>> d4f381f18dea7bf1905972c2390d8fabe6a9ab5d
+    <h1>Stylin with  CSS</h1>
+    <nav>
+      <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+          <li><a href="#">Link 5</a></li>
+          <li><a href="#">Link 6</a></li>
+      </ul>
+   </nav>
+   
     <p>Clever content goes here</p>
     <p>Clever content goes here</p>
     <p>Clever content goes here</p>
