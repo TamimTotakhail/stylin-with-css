@@ -35,6 +35,33 @@
       nav a:hover{
         text-decoration: none; /* on hover, underline goes away */
       }
+      table.my-table {
+         border-collapse: collapse;
+       }
+
+
+       table.my-table th {
+         background-color: #54585d;
+         color: #ffffff;
+         font-weight: bold;
+         font-size: 13px;
+         border: 1px solid #54585d;
+       }
+
+
+       table.my-table td {
+         padding: 15px;
+       }
+     table.my-table td {
+       color: #636363;
+       border: 1px solid #383c3f;
+     }
+     table.my-table tr {
+       background-color: #63aaf5;
+     }
+     table.my-table tr:nth-child(odd) {
+       background-color: #ffffff;
+     }
 
       footer{
         text-align: center;
@@ -56,10 +83,23 @@
       </ul>
    </nav>
    
-    <p>Clever content goes here</p>
-    <p>Clever content goes here</p>
-    <p>Clever content goes here</p>
-    <p>Clever content goes here</p>
+<table class="my-table">
+    <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>Tamim</td>
+      <td>Totakhail</td>
+      <td>tamim.totakhail.2014@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Hamid</td>
+      <td>Jan</td>
+      <td>himidi1991@gmail.com</td>
+    </tr>
+  </table>
     <footer>
         <p><small>&copy; 2023 by 
             YOUR NAME HERE, All Rights Reserved ~ 
